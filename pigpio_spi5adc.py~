@@ -25,7 +25,7 @@ try:
             if i == 1:
                 print ' ',
             for j in range(8):
-                v[i]= v[i] + [x.readSpiADC(i,PinCLK,PinMOSI,PinMISO,PinCS[i])]
+                v[i]= v[i] + [x.readSpiADC(0,PinCLK,PinMOSI,PinMISO,PinCS[i])]
                 print " {0:4d}".format(v[i][j]),
             print "\n",
         time.sleep(0.2)
