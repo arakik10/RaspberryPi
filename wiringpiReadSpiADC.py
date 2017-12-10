@@ -1,7 +1,7 @@
 import wiringpi
 import time
 
-class wpSpiAdc(object):
+class WpReadSpiAdc(object):
 
     def __init__ ( self ):
 
