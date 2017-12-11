@@ -12,7 +12,8 @@ try:
             if i == 1:
                 print ' ',
             for j in range(8):
-                v[i]= v[i] + [wpRSA.readDataSpiADC(i,j)]
+                dataADC= wpRSA.readDataSpiADC(i,j)
+                v[i]= v[i] + [dataADC]
                 print " {0:4d}".format(v[i][j]),
             print "\n",
         time.sleep(0.2)
