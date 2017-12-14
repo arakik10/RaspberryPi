@@ -1,3 +1,5 @@
+# array allocation test code 
+
 i=0; a=[]
 while i < 5:
   print(i)
